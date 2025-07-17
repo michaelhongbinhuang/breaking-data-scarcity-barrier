@@ -1,4 +1,4 @@
-# Breaking the Data Scarcity Barrier: Scale-Invariant Data Augmentation Significantly Improves Return Prediction across Models
+# Codebase for "Breaking the Data Scarcity Barrier: Scale-Invariant Data Augmentation Significantly Improves Return Prediction across Models"
 
 This repository provides the code for the PNAS manuscript: Breaking the Data Scarcity Barrier: Scale-Invariant Data Augmentation Significantly Improves Return Prediction across Models.
 
@@ -17,6 +17,7 @@ Options:
 
 --dataname: Asset
 
+*Note: Additional data sources (e.g., risk-free rates) used in the experiments are spefifically documented in the corresponding folder.*
 
 ## Training Generative Models
 
@@ -69,3 +70,10 @@ Options:
 --adjust_lr: Whether adjust the learning rate during training (for neural networks)
 
 --set_gpu: Assign the GPU
+
+
+## Contact
+
+If you have any questions, please feel free to contact: 
+
+Hongbin Huang (hongbin.huang@my.cityu.edu.hk)
